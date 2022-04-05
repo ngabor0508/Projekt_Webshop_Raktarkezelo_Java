@@ -3,7 +3,7 @@ package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class MainController {
     @FXML
     private Label welcomeText;
 

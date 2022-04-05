@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java/hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.HelloApplication
+                                hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java/hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.RaktarKezeloApp
                             </mainClass>
                         </configuration>
                     </execution>
