@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="950.0" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.MainController">
    <children>
       <HBox minHeight="30.0" prefHeight="30.0" spacing="10.0">
@@ -20,10 +19,10 @@
       <TableView fx:id="termekTable" minHeight="200.0" prefWidth="900.0" VBox.vgrow="ALWAYS">
         <columns>
             <TableColumn fx:id="colId" maxWidth="70.0" minWidth="50.0" prefWidth="60.0" text="Sorszám" />
-          <TableColumn fx:id="colKodszam" minWidth="50.0" prefWidth="200.0" text="Kódszám" />
-          <TableColumn fx:id="colNev" minWidth="150.0" prefWidth="300.0" text="Név" />
-            <TableColumn fx:id="colAr" minWidth="50.0" prefWidth="100.0" text="Ár" />
-            <TableColumn fx:id="colMennyiseg" minWidth="50.0" prefWidth="75.0" text="Mennyiség" />
+            <TableColumn fx:id="colKodszam" minWidth="50.0" prefWidth="200.0" text="Kódszám" />
+            <TableColumn fx:id="colName" minWidth="150.0" prefWidth="300.0" text="Név" />
+            <TableColumn fx:id="colPrice" minWidth="50.0" prefWidth="100.0" text="Ár" />
+            <TableColumn fx:id="colQuantity" minWidth="50.0" prefWidth="75.0" text="Mennyiség" />
             <TableColumn fx:id="colKepUrl" prefWidth="75.0" text="Kép URL" />
             <TableColumn fx:id="colKategoria" prefWidth="100.0" text="Kategória" />
         </columns>

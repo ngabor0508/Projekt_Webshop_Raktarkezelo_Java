@@ -5,26 +5,37 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 
 
 public class MainController {
 
     @FXML
-    private TableColumn colKepUrl;
+    private TableView<Termek> termekTable;
     @FXML
-    private TableView termekTable;
+    private TableColumn<Termek, Integer> colId;
     @FXML
-    private TableColumn colNev;
+    private TableColumn<Termek, String> colKodszam;
     @FXML
-    private TableColumn colKodszam;
+    private TableColumn<Termek, String> colName;
     @FXML
-    private TableColumn colAr;
+    private TableColumn<Termek, Integer> colPrice;
     @FXML
-    private TableColumn colKategoria;
+    private TableColumn<Termek, Integer> colQuantity;
     @FXML
-    private TableColumn colId;
+    private TableColumn<Termek, String> colKepUrl;
     @FXML
-    private TableColumn colMennyiseg;
+    private TableColumn<Termek, String> colKategoria;
+
+    public void initialize(){
+        colId.setCellValueFactory(new PropertyValueFactory<>("id"));
+        colKodszam.setCellValueFactory(new PropertyValueFactory<>("kodszam"));
+        colName.setCellValueFactory(new PropertyValueFactory<>("name"));
+        colPrice.setCellValueFactory(new PropertyValueFactory<>("price"));
+        colQuantity.setCellValueFactory(new PropertyValueFactory<>("quantity"));
+        colKepUrl.setCellValueFactory(new PropertyValueFactory<>("url"));
+        colKategoria.setCellValueFactory(new PropertyValueFactory<>("kategoria"));
+    }
 
     @FXML
     public void onHozzaadasButtonClick(ActionEvent actionEvent) {
