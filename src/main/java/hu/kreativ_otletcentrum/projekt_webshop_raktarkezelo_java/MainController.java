@@ -8,7 +8,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 
-public class MainController {
+public class MainController extends Controller{
 
     @FXML
     private TableView<Termek> termekTable;
