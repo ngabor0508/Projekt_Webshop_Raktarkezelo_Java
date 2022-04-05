@@ -15,7 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Projekt_Webshop_Raktarkezelo_Java" options="--add-exports javafx.controls/javafx=hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java" />
+      <module name="Projekt_Webshop_Raktarkezelo_Java" options="" />
     </option>
   </component>
 </project>
