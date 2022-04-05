@@ -4,11 +4,33 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
 public class MainController {
-    @FXML
-    private Label welcomeText;
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    private TableColumn colKepUrl;
+    @FXML
+    private TableView termekTable;
+    @FXML
+    private TableColumn colNev;
+    @FXML
+    private TableColumn colKodszam;
+    @FXML
+    private TableColumn colAr;
+    @FXML
+    private TableColumn colKategoria;
+    @FXML
+    private TableColumn colId;
+    @FXML
+    private TableColumn colMennyiseg;
+
+    @FXML
+    public void onHozzaadasButtonClick(ActionEvent actionEvent) {
+    }
+
+    @FXML
+    public void onModositasButtonClick(ActionEvent actionEvent) {
+    }
+
+    @FXML
+    public void onTorlesButtonClick(ActionEvent actionEvent) {
     }
 }
