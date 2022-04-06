@@ -62,6 +62,4 @@ public class TermekApi {
         }
         return response.getResponseCode() == 204;
     }
-
-
 }

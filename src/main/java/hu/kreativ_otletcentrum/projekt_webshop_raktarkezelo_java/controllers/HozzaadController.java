@@ -25,7 +25,6 @@ public class HozzaadController extends Controller {
 
     @FXML
     public void onHozzaadButtonClick(ActionEvent actionEvent){
-        {
             String kodszam = inputKodszam.getText().trim();
             String name = inputName.getText().trim();
             int price = 0;
@@ -91,5 +90,4 @@ public class HozzaadController extends Controller {
                 hibaKiir(e);
             }
         }
-    }
 }
