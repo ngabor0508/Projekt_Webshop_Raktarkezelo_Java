@@ -6,7 +6,7 @@
 
     <groupId>hu.kreativ_otletcentrum</groupId>
     <artifactId>Projekt_Webshop_Raktarkezelo_Java</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>Projekt_Webshop_Raktarkezelo_Java</name>
 
     <properties>
