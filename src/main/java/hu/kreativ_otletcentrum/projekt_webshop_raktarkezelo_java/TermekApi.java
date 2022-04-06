@@ -16,13 +16,26 @@ public class TermekApi {
         Response response = RequestHandler.get(TERMEK_API_URL);
         String json = response.getContent();
         Gson jsonConvert = new Gson();
-        if (response.getResponseCode() >= 400);{
+        if(response.getResponseCode() >= 400){
             System.out.println(json);
             String message = jsonConvert.fromJson(json, ApiError.class).getMessage();
             throw new IOException(message);
         }
         Type type = new TypeToken<List<Termek>>(){}.getType();
-        return  jsonConvert.fromJson(json, type);
+        return jsonConvert.fromJson(json, type);
+    }
+
+    public static Termek termekHozzaadasa(Termek ujTermek) throws IOException {
+        Gson jsonConvert = new Gson();
+        String termekJson = jsonConvert.toJson(ujTermek);
+        Response response = RequestHandler.post(TERMEK_API_URL, termekJson);
+        String json = response.getContent();
+        if(response.getResponseCode() >= 400){
+            System.out.println(json);
+            String message = jsonConvert.fromJson(json, ApiError.class).getMessage();
+            throw new IOException(message);
+        }
+        return jsonConvert.fromJson(json, Termek.class);
     }
 
 
