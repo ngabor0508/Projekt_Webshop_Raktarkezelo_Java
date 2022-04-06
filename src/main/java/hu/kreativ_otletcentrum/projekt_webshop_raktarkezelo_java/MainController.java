@@ -7,6 +7,9 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+import java.io.IOException;
+import java.util.List;
+
 
 public class MainController extends Controller{
 
@@ -35,6 +38,20 @@ public class MainController extends Controller{
         colQuantity.setCellValueFactory(new PropertyValueFactory<>("quantity"));
         colKepUrl.setCellValueFactory(new PropertyValueFactory<>("url"));
         colKategoria.setCellValueFactory(new PropertyValueFactory<>("kategoria"));
+        termekListaFeltolt();
+    }
+
+    private void termekListaFeltolt(){
+        try {
+            List<Termek> termekList = TermekApi.getTermekek();
+            termekTable.getItems().clear();
+            for (Termek termek:termekList) {
+                termekTable.getItems().add(termek);
+            }
+
+        } catch (IOException e) {
+            hibaKiir(e);
+        }
     }
 
     @FXML
