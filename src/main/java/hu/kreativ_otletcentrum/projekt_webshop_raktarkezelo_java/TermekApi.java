@@ -51,5 +51,17 @@ public class TermekApi {
         return jsonConvert.fromJson(json, Termek.class);
     }
 
+    public static boolean termekTorlese(int id) throws IOException {
+        Response response = RequestHandler.delete(TERMEK_API_URL + "/" + id);
+        Gson jsonConvert = new Gson();
+        String json = response.getContent();
+        if(response.getResponseCode() >= 400){
+            System.out.println(json);
+            String message = jsonConvert.fromJson(json, ApiError.class).getMessage();
+            throw new IOException(message);
+        }
+        return response.getResponseCode() == 204;
+    }
+
 
 }
