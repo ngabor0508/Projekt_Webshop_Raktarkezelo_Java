@@ -38,5 +38,18 @@ public class TermekApi {
         return jsonConvert.fromJson(json, Termek.class);
     }
 
+    public static Termek termekModositasa(Termek modositando) throws IOException {
+        Gson jsonConvert = new Gson();
+        String termekJson = jsonConvert.toJson(modositando);
+        Response response = RequestHandler.put(TERMEK_API_URL + "/" + modositando.getId(), termekJson);
+        String json = response.getContent();
+        if(response.getResponseCode() >= 400){
+            System.out.println(json);
+            String message = jsonConvert.fromJson(json, ApiError.class).getMessage();
+            throw new IOException(message);
+        }
+        return jsonConvert.fromJson(json, Termek.class);
+    }
+
 
 }
