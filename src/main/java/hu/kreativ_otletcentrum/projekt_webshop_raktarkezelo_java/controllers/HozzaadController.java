@@ -40,7 +40,6 @@ public class HozzaadController extends Controller {
             if(name.isEmpty()){
                 alert("Név megadása kötelező");
                 return;
-
             }
 
             try {

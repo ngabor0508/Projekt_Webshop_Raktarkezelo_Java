@@ -70,6 +70,7 @@ public class MainController extends Controller {
 
     @FXML
     public void onModositasButtonClick(ActionEvent actionEvent) {
+
     }
 
     @FXML
