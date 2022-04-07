@@ -43,7 +43,7 @@
       </Spinner>
       <Spinner fx:id="inputQuantity" editable="true" minWidth="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.hgrow="ALWAYS" >
           <valueFactory>
-              <SpinnerValueFactory.IntegerSpinnerValueFactory amountToStepBy="10" initialValue="10" min="0" max="1000000"/>
+              <SpinnerValueFactory.IntegerSpinnerValueFactory amountToStepBy="5" initialValue="10" min="0" max="1000000"/>
           </valueFactory>
       </Spinner>
       <TextField fx:id="inputUrl" promptText="Kép url" GridPane.columnIndex="1" GridPane.rowIndex="4" />
