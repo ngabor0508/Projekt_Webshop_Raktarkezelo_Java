@@ -69,100 +69,23 @@ public class MainController extends Controller {
     }
 
     @FXML
-    public void onModositButtonClick(ActionEvent actionEvent) {
-        String kodszam = inputKodszam.getText().trim();
-        String name = inputName.getText().trim();
-        int price = 0;
-        int quantity = 0;
-        String url = inputUrl.getText().trim();
-        int kategoriaIndex = inputKategoria.getSelectionModel().getSelectedIndex();
-
-        if (kodszam.isEmpty()) {
-            alert("Kódszám megadása kötelező!");
+    public void onModositasButtonClick(ActionEvent actionEvent) {
+        int selectedIndex = termekTable.getSelectionModel().getSelectedIndex();
+        if(selectedIndex == -1){
+            alert("A módosításhoz előbb válasszon ki egy elemet a táblázatból");
             return;
         }
-
-        if (name.isEmpty()) {
-            alert("Név megadása kötelező");
-            return;
-        }
-
+        Termek modositando = termekTable.getSelectionModel().getSelectedItem();
         try {
-            price = inputPrice.getValue();
-        } catch (NullPointerException ex) {
-            alert("Az ár megadása kötelező!");
-            return;
-        } catch (Exception ex) {
-            alert("Az árnak minimum 1Ft-nak kell lennie!");
-            return;
-        }
-        if (price < 1) {
-            alert("Az árnak minimum 1Ft-nak kell lennie!");
-            return;
-        }
-
-        try {
-            quantity = inputQuantity.getValue();
-        } catch (NullPointerException ex) {
-            alert("A mennyiség megadása kötelező!");
-            return;
-        } catch (Exception ex) {
-            alert("A mennyiség megadása kötelező!");
-            return;
-        }
-
-        if (url.isEmpty()) {
-            alert("Url megadása kötelező!");
-            return;
-        }
-
-        if (kategoriaIndex == -1) {
-            alert("Értékelés kiválasztása kötelező!");
-            return;
-        }
-        String kategoria = (String) inputKategoria.getValue();
-
-        modositando.setKodszam(kodszam);
-        modositando.setName(name);
-        modositando.setPrice(price);
-        modositando.setQuantity(quantity);
-        modositando.setUrl(url);
-        modositando.setKategoria(kategoria);
-
-        try {
-            Termek modositott = TermekApi.termekModositasa(modositando);
-            if (modositott != null) {
-                alertWait("Sikeres módosítás!");
-                this.stage.close();
-            } else {
-                alert("Sikertelen módosítás!");
-
-            }
+            ModositController modositas = (ModositController) ujAblak("modosit-view.fxml", "Termék módosítása",
+                    320, 400);
+            modositas.setModositando(modositando);
+            modositas.getStage().setOnHiding(event -> termekTable.refresh());
+            modositas.getStage().show();
         } catch (IOException e) {
-            e.printStackTrace();
+            hibaKiir(e);
         }
     }
-
-    public Termek getModositando() {
-        return modositando;
-    }
-
-    public void setModositando(Termek modositando) {
-        this.modositando = modositando;
-        ertekekBeallitasa();
-    }
-
-    private void ertekekBeallitasa() {
-        inputKodszam.setText(modositando.getKodszam());
-        inputName.setText(modositando.getName());
-        inputPrice.getValueFactory().setValue(modositando.getPrice());
-        inputQuantity.setValue(modositando.getQuantity());
-        inputUrl.setText(modositando.getUrl());
-        inputKategoria.setText(modositando.getKategoria());
-    }
-}
-
-
 
     @FXML
     public void onTorlesButtonClick(ActionEvent actionEvent) {
