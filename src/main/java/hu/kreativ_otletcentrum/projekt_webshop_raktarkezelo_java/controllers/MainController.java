@@ -89,5 +89,21 @@ public class MainController extends Controller {
 
     @FXML
     public void onTorlesButtonClick(ActionEvent actionEvent) {
+        int selectedIndex = termekTable.getSelectionModel().getSelectedIndex();
+        if(selectedIndex == -1){
+            alert("A törléshez előbb válasszon ki egy elemet a táblázatból");
+            return;
+        }
+        Termek torlendoTermek = termekTable.getSelectionModel().getSelectedItem();
+        if(!confirm("Biztos, hogy törölni szeretné az alábbi terméket:" + torlendoTermek.getKodszam())){
+            return;
+        }
+        try {
+            boolean sikeres = TermekApi.termekTorlese(torlendoTermek.getId());
+            alert(sikeres?  "Sikeres a törlés" : "Sikertelen törlés");
+            termekListaFeltolt();
+        } catch (IOException e) {
+            hibaKiir(e);
+        }
     }
 }
