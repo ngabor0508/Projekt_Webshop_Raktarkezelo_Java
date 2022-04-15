@@ -10,9 +10,9 @@ import java.io.IOException;
 public class RaktarKezeloApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(RaktarKezeloApp.class.getResource("main-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Kreatív Ötletcentrum Raktárkezelő!");
+        FXMLLoader fxmlLoader = new FXMLLoader(RaktarKezeloApp.class.getResource("bejelentkezes-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 363, 258);
+        stage.setTitle("Kreatív Ötletcentrum Raktárkezelő Bejelentkezés!");
         stage.setScene(scene);
         stage.show();
     }
