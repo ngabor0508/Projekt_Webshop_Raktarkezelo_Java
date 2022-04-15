@@ -11,6 +11,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -33,6 +34,9 @@ public class MainController extends Controller {
     @FXML
     private TableColumn<Termek, String> colKategoria;
 
+
+    List<Termek> termekList = new ArrayList<>();
+
     public void initialize(){
         colId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colKodszam.setCellValueFactory(new PropertyValueFactory<>("kodszam"));
@@ -46,11 +50,9 @@ public class MainController extends Controller {
 
     private void termekListaFeltolt(){
         try {
-            List<Termek> termekList = TermekApi.getTermekek();
+            termekList = TermekApi.getTermekek();
             termekTable.getItems().clear();
-            for (Termek termek:termekList) {
-                termekTable.getItems().add(termek);
-            }
+            termekTable.getItems().addAll(termekList);
         } catch (IOException e) {
             hibaKiir(e);
         }
