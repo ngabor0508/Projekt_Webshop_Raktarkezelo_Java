@@ -1,15 +1,15 @@
 package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java;
 
 public class Termek {
-    private int id;
+    private Integer id;
     private String kodszam;
     private String name;
-    private int price;
-    private int quantity;
+    private Integer price;
+    private Integer quantity;
     private String url;
     private String kategoria;
 
-    public Termek(int id, String kodszam, String name, int price, int quantity, String url, String kategoria) {
+    public Termek(Integer id, String kodszam, String name, Integer price, Integer quantity, String url, String kategoria) {
         this.id = id;
         this.kodszam = kodszam;
         this.name = name;
@@ -19,7 +19,7 @@ public class Termek {
         this.kategoria = kategoria;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -31,11 +31,11 @@ public class Termek {
         return name;
     }
 
-    public int getPrice() {
+    public Integer getPrice() {
         return price;
     }
 
-    public int getQuantity() {
+    public Integer getQuantity() {
         return quantity;
     }
 
@@ -47,7 +47,7 @@ public class Termek {
         return kategoria;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -59,11 +59,11 @@ public class Termek {
         this.name = name;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(Integer price) {
         this.price = price;
     }
 
-    public void setQuantity(int quantity) {
+    public void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
 
