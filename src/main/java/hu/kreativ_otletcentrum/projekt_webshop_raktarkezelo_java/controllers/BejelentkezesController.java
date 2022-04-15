@@ -1,6 +1,7 @@
 package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.controllers;
 
 import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.Bejelentkezes;
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.BejelentkezesApi;
 import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.Token;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -18,5 +19,10 @@ public class BejelentkezesController {
 
     @FXML
     public void onBelepesButtonClick(ActionEvent actionEvent) {
+        String login_email = inputEmail.getText().trim();
+        String login_password = inputPassword.getText().trim();
+
+        Bejelentkezes bejelentkezes = new Bejelentkezes(login_email, login_password);
+
     }
 }
