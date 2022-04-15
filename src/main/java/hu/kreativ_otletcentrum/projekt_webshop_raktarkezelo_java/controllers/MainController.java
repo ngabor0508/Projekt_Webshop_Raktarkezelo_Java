@@ -8,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.io.IOException;
@@ -33,7 +34,8 @@ public class MainController extends Controller {
     private TableColumn<Termek, String> colKepUrl;
     @FXML
     private TableColumn<Termek, String> colKategoria;
-
+    @FXML
+    private TextField keresMezo;
 
     List<Termek> termekList = new ArrayList<>();
 
@@ -46,6 +48,7 @@ public class MainController extends Controller {
         colKepUrl.setCellValueFactory(new PropertyValueFactory<>("url"));
         colKategoria.setCellValueFactory(new PropertyValueFactory<>("kategoria"));
         termekListaFeltolt();
+        keres();
     }
 
     private void termekListaFeltolt(){
@@ -107,5 +110,9 @@ public class MainController extends Controller {
         } catch (IOException e) {
             hibaKiir(e);
         }
+    }
+
+    public void keres(){
+
     }
 }
