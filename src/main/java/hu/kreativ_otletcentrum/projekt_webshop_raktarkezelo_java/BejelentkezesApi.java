@@ -19,7 +19,7 @@ public class BejelentkezesApi {
         return json;
     }
 
-    public static Token postLogin(Bejelentkezes bejelentkezes) throws IOException {
+    public static Token postBejelentkezes(Bejelentkezes bejelentkezes) throws IOException {
         String bejelentkezesJson = jsonConverter.toJson(bejelentkezes);
 
         Response response = RequestHandler.post(URL + "/login", bejelentkezesJson);
