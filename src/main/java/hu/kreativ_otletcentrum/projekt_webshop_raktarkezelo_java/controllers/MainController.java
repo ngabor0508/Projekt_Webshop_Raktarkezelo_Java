@@ -3,6 +3,10 @@ package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.controllers;
 import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.Controller;
 import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.Termek;
 import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.TermekApi;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
+import javafx.collections.transformation.FilteredList;
+import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -113,6 +117,40 @@ public class MainController extends Controller {
     }
 
     public void keres(){
+        ObservableList<Termek> observableTermekList = FXCollections.observableArrayList(termekList);
+        FilteredList<Termek> filteredTermekList = new FilteredList<>(observableTermekList, b -> true);
 
+        keresMezo.textProperty().addListener((observable, oldValue, newValue) -> {
+            filteredTermekList.setPredicate(Termek -> {
+                if(newValue == null || newValue.isEmpty() || newValue.isBlank()){
+                    return true;
+                }
+
+                String keresendoKifejezes = newValue.toLowerCase();
+
+                if(Termek.getId().toString().contains(keresendoKifejezes)){
+                    return true;
+                } else if(Termek.getKodszam().toLowerCase().contains(keresendoKifejezes)){
+                    return true;
+                } else if(Termek.getName().toLowerCase().contains(keresendoKifejezes)){
+                    return true;
+                } else if(Termek.getPrice().toString().contains(keresendoKifejezes)){
+                    return true;
+                } else if(Termek.getQuantity().toString().contains(keresendoKifejezes)){
+                    return true;
+                } else if(Termek.getUrl().toLowerCase().contains(keresendoKifejezes)){
+                    return true;
+                } else if(Termek.getKategoria().toLowerCase().contains(keresendoKifejezes)){
+                    return true;
+                }
+                else{
+                    return false;
+                }
+            });
+            SortedList<Termek> sortedTermekList = new SortedList<>(filteredTermekList);
+            sortedTermekList.comparatorProperty().bind(termekTable.comparatorProperty());
+            termekTable.getItems().clear();
+            termekTable.getItems().addAll(sortedTermekList);
+        });
     }
 }
