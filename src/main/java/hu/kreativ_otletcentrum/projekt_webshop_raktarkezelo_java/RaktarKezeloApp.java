@@ -15,6 +15,7 @@ public class RaktarKezeloApp extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(RaktarKezeloApp.class.getResource("bejelentkezes-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 300);
         stage.setTitle("Kreatív Ötletcentrum Raktárkezelő Bejelentkezés");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }

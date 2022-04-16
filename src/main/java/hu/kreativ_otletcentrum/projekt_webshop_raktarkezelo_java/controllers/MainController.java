@@ -1,15 +1,14 @@
 package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.controllers;
 
 import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.Controller;
-import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.Termek;
-import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.TermekApi;
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok.Termek;
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.api.TermekApi;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;

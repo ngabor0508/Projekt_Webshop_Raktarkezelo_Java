@@ -1,4 +1,4 @@
-package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java;
+package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok;
 
 public class Termek {
     private Integer id;

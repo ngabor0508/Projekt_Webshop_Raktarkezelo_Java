@@ -7,4 +7,8 @@ module hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java {
     exports hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java;
     exports hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.controllers;
     opens hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.controllers to javafx.fxml;
+    exports hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.api;
+    opens hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.api to com.google.gson, javafx.fxml;
+    exports hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok;
+    opens hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok to com.google.gson, javafx.fxml;
 }

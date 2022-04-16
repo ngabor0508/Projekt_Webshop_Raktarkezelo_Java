@@ -1,4 +1,4 @@
-package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java;
+package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.api;
 
 public class ApiError {
     private String message;

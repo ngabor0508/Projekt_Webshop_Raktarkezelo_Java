@@ -1,8 +1,9 @@
 package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java;
 
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok.Response;
+
 import java.io.*;
 import java.net.HttpURLConnection;
-import java.net.ProtocolException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 

@@ -1,6 +1,11 @@
-package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java;
+package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.api;
 
 import com.google.gson.Gson;
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.*;
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok.Bejelentkezes;
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok.Felhasznalo;
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok.Response;
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok.Token;
 
 import java.io.IOException;
 
