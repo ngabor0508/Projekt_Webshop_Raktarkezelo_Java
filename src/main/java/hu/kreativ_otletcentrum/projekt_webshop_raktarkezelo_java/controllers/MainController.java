@@ -67,7 +67,7 @@ public class MainController extends Controller {
     @FXML
     public void onHozzaadasButtonClick(ActionEvent actionEvent) {
         try {
-            Controller hozzaadas = ujAblak("hozzaad-view.fxml", "Termék hozzáadása",
+            Controller hozzaadas = ujAblak("fxml/hozzaad-view.fxml", "Termék hozzáadása",
                     320, 400);
             hozzaadas.getStage().setOnCloseRequest(event -> termekListaFeltolt());
             hozzaadas.getStage().show();
@@ -85,7 +85,7 @@ public class MainController extends Controller {
         }
         Termek modositando = termekTable.getSelectionModel().getSelectedItem();
         try {
-            ModositController modositas = (ModositController) ujAblak("modosit-view.fxml", "Termék módosítása",
+            ModositController modositas = (ModositController) ujAblak("fxml/modosit-view.fxml", "Termék módosítása",
                     320, 400);
             modositas.setModositando(modositando);
             modositas.getStage().setOnHiding(event -> termekTable.refresh());

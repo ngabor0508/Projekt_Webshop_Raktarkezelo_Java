@@ -12,7 +12,7 @@ public class RaktarKezeloApp extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(RaktarKezeloApp.class.getResource("bejelentkezes-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(RaktarKezeloApp.class.getResource("fxml/bejelentkezes-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 300);
         stage.setTitle("Kreatív Ötletcentrum Raktárkezelő Bejelentkezés");
         stage.setResizable(false);
