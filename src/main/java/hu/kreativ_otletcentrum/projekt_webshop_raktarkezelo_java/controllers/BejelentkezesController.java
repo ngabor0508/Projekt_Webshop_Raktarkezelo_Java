@@ -36,7 +36,7 @@ public class BejelentkezesController extends Controller{
             RaktarKezeloApp.nev = felhasznaloAdatok.getName();
             ((Stage) bejelentkezes_ablak.getScene().getWindow()).close();
             MainController main = (MainController) ujAblak(
-                    "/hu/kreativ_otletcentrum/projekt_webshop_raktarkezelo_java/main-view.fxml", "Kreatív Ötletcentrum Raktárkezelő", 1300, 700
+                    "/hu/kreativ_otletcentrum/projekt_webshop_raktarkezelo_java/fxml/main-view.fxml", "Kreatív Ötletcentrum Raktárkezelő", 1300, 700
             );
             main.getStage().show();
         } catch (IOException e) {
