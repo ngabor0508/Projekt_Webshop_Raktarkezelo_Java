@@ -16,6 +16,9 @@ import java.util.TimerTask;
 
 public abstract class Controller {
     protected Stage stage;
+    private static Image icon = new Image(Controller.class.getResourceAsStream("/hu/kreativ_otletcentrum/projekt_webshop_raktarkezelo_java/images/kreativ_logo.png"));
+    protected DialogPane dialogPane;
+
 
     public Stage getStage(){
         return stage;
@@ -25,6 +28,9 @@ public abstract class Controller {
         Alert alert = new Alert(Alert.AlertType.NONE);
         alert.setContentText(uzenet);
         alert.getButtonTypes().add(ButtonType.OK);
+        dialogPane = alert.getDialogPane();
+        Stage stage = (Stage) dialogPane.getScene().getWindow();
+        stage.getIcons().add(icon);
         alert.show();
     }
 
@@ -32,6 +38,9 @@ public abstract class Controller {
         Alert alert = new Alert(Alert.AlertType.NONE);
         alert.setContentText(uzenet);
         alert.getButtonTypes().add(ButtonType.OK);
+        dialogPane = alert.getDialogPane();
+        Stage stage = (Stage) dialogPane.getScene().getWindow();
+        stage.getIcons().add(icon);
         alert.showAndWait();
     }
 
@@ -39,6 +48,9 @@ public abstract class Controller {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setTitle("Biztos?");
         alert.setHeaderText(uzenet);
+        dialogPane = alert.getDialogPane();
+        Stage stage = (Stage) dialogPane.getScene().getWindow();
+        stage.getIcons().add(icon);
         Optional<ButtonType> result = alert.showAndWait();
         return result.get() == ButtonType.OK;
     }
@@ -48,6 +60,9 @@ public abstract class Controller {
         alert.setTitle("Hiba!");
         alert.setHeaderText(e.getClass().toString());
         alert.setContentText(e.getMessage());
+        dialogPane = alert.getDialogPane();
+        Stage stage = (Stage) dialogPane.getScene().getWindow();
+        stage.getIcons().add(icon);
         Timer alertTimer = new Timer();
         alertTimer.schedule(new TimerTask() {
             @Override
@@ -63,6 +78,7 @@ public abstract class Controller {
         Scene scene = new Scene(fxmlLoader.load(), width, height);
         stage.setTitle(title);
         stage.setScene(scene);
+        stage.getIcons().add(icon);
         Controller controller = fxmlLoader.getController();
         controller.stage = stage;
         return controller;
