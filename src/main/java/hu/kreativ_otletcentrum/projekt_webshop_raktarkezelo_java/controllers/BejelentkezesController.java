@@ -1,6 +1,7 @@
 package hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.controllers;
 
-import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.*;
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.Controller;
+import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.RaktarKezeloApp;
 import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.api.BejelentkezesApi;
 import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok.Bejelentkezes;
 import hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.peldanyok.Felhasznalo;
@@ -33,12 +34,17 @@ public class BejelentkezesController extends Controller{
             Token token = BejelentkezesApi.postBejelentkezes(bejelentkezes);
             Felhasznalo felhasznaloAdatok = BejelentkezesApi.getBejelentkezesAdatok(token.getToken());
 
-            RaktarKezeloApp.nev = felhasznaloAdatok.getName();
-            ((Stage) bejelentkezes_ablak.getScene().getWindow()).close();
-            MainController main = (MainController) ujAblak(
-                    "/hu/kreativ_otletcentrum/projekt_webshop_raktarkezelo_java/fxml/main-view.fxml", "Kreatív Ötletcentrum Raktárkezelő", 1300, 700
-            );
-            main.getStage().show();
+            if(felhasznaloAdatok.getPermission()) {
+                RaktarKezeloApp.nev = felhasznaloAdatok.getName();
+                ((Stage) bejelentkezes_ablak.getScene().getWindow()).close();
+                MainController main = (MainController) ujAblak(
+                        "/hu/kreativ_otletcentrum/projekt_webshop_raktarkezelo_java/fxml/main-view.fxml", "Kreatív Ötletcentrum Raktárkezelő", 1300, 700
+                );
+                main.getStage().show();
+            }
+            else{
+                System.out.println("Nincs jogod bejelentkezni.");
+            }
         } catch (IOException e) {
             hibaKiir(e);
         }
