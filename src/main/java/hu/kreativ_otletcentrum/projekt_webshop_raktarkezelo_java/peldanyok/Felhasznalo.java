@@ -7,11 +7,13 @@ public class Felhasznalo {
     private String name;
     private String email;
     private Date created_at;
+    private boolean permission;
 
-    public Felhasznalo(int id, String name, String email, Date created_at) {
+    public Felhasznalo(int id, String name, String email, boolean permission, Date created_at) {
         this.id = id;
         this.name = name;
         this.email = email;
+        this.permission = permission;
         this.created_at = created_at;
     }
 
@@ -25,6 +27,10 @@ public class Felhasznalo {
 
     public String getEmail() {
         return email;
+    }
+
+    public boolean getPermission() {
+        return permission;
     }
 
     public Date getCreated_at() {
@@ -41,6 +47,10 @@ public class Felhasznalo {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public void setPermission(boolean permission) {
+        this.permission = permission;
     }
 
     public void setCreated_at(Date created_at) {

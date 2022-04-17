@@ -25,6 +25,19 @@
                   <Font name="System Bold" size="12.0" />
                </font>
             </TextField>
+            <ChoiceBox fx:id="choicebox" prefWidth="150.0">
+             <items>
+                 <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="alap" />
+                     <String fx:value="dekor" />
+                     <String fx:value="kész" />
+                     <String fx:value="osszes"/>
+                 </FXCollections>
+             </items>
+            </ChoiceBox>
+            <CheckBox fx:id="checkDekor" mnemonicParsing="false" text="Dekor" />
+            <CheckBox fx:id="checkKesz" mnemonicParsing="false" text="Kesz" />
+            <CheckBox fx:id="checkAlap" mnemonicParsing="false" text="Alap" />
          </children>
       </HBox>
       <TableView fx:id="termekTable" minHeight="200.0" prefWidth="900.0" VBox.vgrow="ALWAYS">
