@@ -18,6 +18,8 @@ public class RaktarKezeloApp extends Application {
         stage.setTitle("Kreatív Ötletcentrum Raktárkezelő Bejelentkezés");
         stage.setResizable(false);
         stage.setScene(scene);
+        Image icon = new Image(getClass().getResourceAsStream("images/kreativ_logo.png"));
+        stage.getIcons().add(icon);
         stage.show();
     }
 
