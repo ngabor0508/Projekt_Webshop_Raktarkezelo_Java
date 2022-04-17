@@ -37,6 +37,8 @@ public class MainController extends Controller {
     private TableColumn<Termek, String> colKategoria;
     @FXML
     private TextField keresMezo;
+    @FXML
+    private ChoiceBox choicebox;
 
     List<Termek> termekList = new ArrayList<>();
 
@@ -50,6 +52,7 @@ public class MainController extends Controller {
         colKategoria.setCellValueFactory(new PropertyValueFactory<>("kategoria"));
         termekListaFeltolt();
         keres();
+        szures();
     }
 
     private void termekListaFeltolt(){
@@ -148,6 +151,45 @@ public class MainController extends Controller {
             sortedTermekList.comparatorProperty().bind(termekTable.comparatorProperty());
             termekTable.getItems().clear();
             termekTable.getItems().addAll(sortedTermekList);
+        });
+    }
+
+    public void szures(){
+        ObservableList<Termek> observableSzurtTermekList = FXCollections.observableArrayList(termekList);
+        choicebox.getSelectionModel().selectedItemProperty().addListener((v, oldValue, newValue) -> {
+            if(newValue.equals("dekor")) {
+                termekTable.getItems().clear();
+                observableSzurtTermekList.clear();
+                for (Termek termek : termekList) {
+                    if (termek.getKategoria().equals("dekor")) {
+                        observableSzurtTermekList.add(termek);
+                    }
+                }
+                termekTable.getItems().addAll(observableSzurtTermekList);
+            }
+            else if(newValue.equals("alap")) {
+                termekTable.getItems().clear();
+                observableSzurtTermekList.clear();
+                for (Termek termek : termekList) {
+                    if (termek.getKategoria().equals("alap")) {
+                        observableSzurtTermekList.add(termek);
+                    }
+                }
+                termekTable.getItems().addAll(observableSzurtTermekList);
+            }
+            else if(newValue.equals("kész")) {
+                termekTable.getItems().clear();
+                observableSzurtTermekList.clear();
+                for (Termek termek : termekList) {
+                    if (termek.getKategoria().equals("kész")) {
+                        observableSzurtTermekList.add(termek);
+                    }
+                }
+                termekTable.getItems().addAll(observableSzurtTermekList);
+            }
+            else {
+                termekListaFeltolt();
+            }
         });
     }
 }
