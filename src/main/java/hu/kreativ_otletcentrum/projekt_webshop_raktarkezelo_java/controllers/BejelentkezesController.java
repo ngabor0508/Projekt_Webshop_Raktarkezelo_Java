@@ -43,7 +43,8 @@ public class BejelentkezesController extends Controller{
                 main.getStage().show();
             }
             else{
-                System.out.println("Nincs jogod bejelentkezni.");
+                //System.out.println("Nincs jogod bejelentkezni.");
+                alert("Nincs jogod bejelentkezni.");
             }
         } catch (IOException e) {
             hibaKiir(e);
