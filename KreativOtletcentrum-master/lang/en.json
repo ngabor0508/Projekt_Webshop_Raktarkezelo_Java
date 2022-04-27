@@ -1,0 +1,11 @@
+{
+    "The :attribute must contain at least one letter.": "The :attribute must contain at least one letter.",
+    "The :attribute must contain at least one number.": "The :attribute must contain at least one number.",
+    "The :attribute must contain at least one symbol.": "The :attribute must contain at least one symbol.",
+    "The :attribute must contain at least one uppercase and one lowercase letter.": "The :attribute must contain at least one uppercase and one lowercase letter.",
+    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": "The given :attribute has appeared in a data leak. Please choose a different :attribute.",
+    "Verify Email Address": "E-mail cím hitelesítése",
+    "Please click the button below to verify your email address.": "Kérjük, kattintson az alábbi gombra az e-mail címének megerősítéséhez",
+    "If you did not create an account, no further action is required.": "Ha nem ön hozta létre a fiókot, nincs további teendője.",
+    "Regards" : "Üdvözlettel"
+}

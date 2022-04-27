@@ -1,0 +1,327 @@
+kodszam;name;price;quantity;url;kategoria
+FK_0011_K_lila;Fonott kosár kicsi lila;520;0;https://res.cloudinary.com/dnoinlxvo/image/upload/v1646843325/FK_0011_K_lila_bkabyg.png;dekor
+FK_0011_K_magenta;Fonott kosár kicsi magenta;520;1;https://res.cloudinary.com/dnoinlxvo/image/upload/v1646843430/FK_0011_K_magenta_wignzs.png;dekor
+FK_0011_K_piros;Fonott kosár kicsi piros;520;1;https://res.cloudinary.com/dnoinlxvo/image/upload/v1646843473/FK_0011_K_piros_crhxho.png;dekor
+FK_0011_K_rozsaszin;Fonott kosár kicsi rozsaszin;520;1;https://res.cloudinary.com/dnoinlxvo/image/upload/v1646843507/FK_0011_K_rozsaszin_h13itl.png;dekor
+FK_0011_K_szurke;Fonott kosár kicsi szurke;520;1;https://res.cloudinary.com/dnoinlxvo/image/upload/v1646843535/FK_0011_K_szurke_egh07a.png;dekor
+FK_0011_K_s_barna;Fonott kosár kicsi sötét barna;520;1;;dekor
+FK_0011_K_s_zold;Fonott kosár kicsi sötét zöld;520;1;;dekor
+FK_0011_N_lila;Fonott kosár nagy lila;1100;1;;dekor
+FK_0011_N_magenta;Fonott kosár nagy magenta;1100;1;;dekor
+FK_0011_N_piros;Fonott kosár nagy piros;1100;1;;dekor
+FK_0011_N_rozsaszin;Fonott kosár nagy rozsaszin;1100;1;;dekor
+FK_0011_N_szurke;Fonott kosár nagy szurke;1100;1;;dekor
+FK_0011_N_barna;Fonott kosár nagy barna;1100;1;;dekor
+FK_0011_N_s_barna;Fonott kosár nagy sötét barna;1100;1;;dekor
+FK_0011_N_s_zold;Fonott kosár nagy sötét zöld;1100;1;;dekor
+FK_0011_N_s_kek;Fonott kosár nagy sötét kék;1100;1;;dekor
+FK_0012_OK_lila;Fonott kosár ovális kicsi lila;1050;1;;dekor
+FK_0012_OK_magenta;Fonott kosár ovális kicsi magenta;1050;1;;dekor
+FK_0012_OK_piros;Fonott kosár ovális kicsi piros;1050;1;;dekor
+FK_0012_OK_rozsaszin;Fonott kosár ovális kicsi rozsaszin;1050;1;;dekor
+FK_0012_OK_szurke;Fonott kosár ovális kicsi szurke;1050;1;;dekor
+FK_0012_OK_barna;Fonott kosár ovális kicsi barna;1050;1;;dekor
+FK_0012_OK_s_barna;Fonott kosár ovális kicsi sötét barna;1050;1;;dekor
+FK_0012_OK_s_zold;Fonott kosár ovális kicsi sötét zöld;1050;1;;dekor
+FK_0012_OK_s_kek;Fonott kosár ovális kicsi sötét kék;1050;1;;dekor
+FK_0012_ON_lila;Fonott kosár ovális nagy lila;1350;1;;dekor
+FK_0012_ON_magenta;Fonott kosár ovális nagy magenta;1350;1;;dekor
+FK_0012_ON_piros;Fonott kosár ovális nagy piros;1350;1;;dekor
+FK_0012_ON_rozsaszin;Fonott kosár ovális nagy rozsaszin;1350;1;;dekor
+FK_0012_ON_szurke;Fonott kosár ovális nagy szurke;1350;1;;dekor
+FK_0012_ON_barna;Fonott kosár ovális nagy barna;1350;1;;dekor
+FK_0012_ON_s_barna;Fonott kosár ovális nagy sötét barna;1350;1;;kesz
+FK_0012_ON_s_zold;Fonott kosár ovális nagy sötét zöld;1350;1;;kesz
+FK_0012_ON_s_kek;Fonott kosár ovális nagysötét kék;1350;1;;kesz
+HR_C0001_narancs;Habrózsa cirmos narancs;20;1;;dekor
+HR_C0001_piros;Habrózsa cirmos piros;20;1;;dekor
+HR_C0001_citrom;Habrózsa cirmos citrom;20;1;;dekor
+HR_C0001_zold;Habrózsa cirmos zöld;20;1;;dekor
+HR_C0001_lila;Habrózsa cirmos lila;20;1;;dekor
+HR_C0001_fekete;Habrózsa cirmos fekete;20;1;;dekor
+HR_C0001_turkiz;Habrózsa cirmos türkiz;20;1;;dekor
+HR_C0001_rozsaszin;Habrózsa cirmos rózsaszín;20;1;;dekor
+HR_C0001_magenta;Habrózsa cirmos magenta;20;1;;dekor
+HR_C0001_v_kek;Habrózsa cirmos világos kék;20;1;;dekor
+HR_0002_v_rozsaszin;Habrózsa világos rózsaszín;20;1;;dekor
+HR_0002_rozsaszin;Habrózsa rózsaszín;20;1;;dekor
+HR_0002_bordo;Habrózsa bordó;20;1;;dekor
+HR_0002_piros;Habrózsa piros;20;1;;dekor
+HR_0002_barack;Habrózsa barack;20;1;;dekor
+HR_0002_citrom;Habrózsa citrom;20;1;;dekor
+HR_0002_lazac;Habrózsa lazac;20;1;;dekor
+HR_0002_puder;Habrózsa púder;20;1;;dekor
+HR_0002_lila;Habrózsa lila;20;1;;dekor
+HR_0002_magenta;Habrózsa magenta;20;1;;dekor
+HR_0002_barna;Habrózsa barna;20;1;;kesz
+HR_0002_szurke;Habrózsa szürke;20;1;;kesz
+HR_0002_fekete;Habrózsa fekete;20;1;;kesz
+HR_0002_s_bordo;Habrózsa sötét bordó;20;1;;dekor
+HR_0002_s_lila;Habrózsa sötét lila;20;1;;dekor
+HR_0002_v_kek;Habrózsa világos kék;20;1;;dekor
+HR_0002_s_kek;Habrózsa sötét kék;20;1;;dekor
+HR_0002_zold;Habrózsa zöld;20;1;;dekor
+HR_0002_homok;Habrózsa homok;20;1;;dekor
+HR_0002_krem;Habrózsa krém;20;1;;dekor
+HR_0002_v_zold;Habrózsa világos zöld;20;1;;dekor
+HR_0002_turkiz;Habrózsa türkiz;20;1;;dekor
+HR_0002_menta;Habrózsa menta;20;1;;dekor
+FL_0003_34426_ekru;A4 Filclap ekrü;100;1;;alap
+FL_0003_34425_mogyoro;A4 Filclap mogyoró;100;1;;alap
+FL_0003_34422_ejkek;A4 Filclap éjkék;100;1;;alap
+FL_0003_13154_s_lila;A4 Filclap sötét lila;100;1;;alap
+FL_0003_13134_n_rozsaszin;A4 Filclap neon rózsaszín;100;1;;alap
+FL_0003_13133_v_narancs;A4 Filclap világos narancs;100;1;;alap
+FL_0003_13132_barna;A4 Filclap barna;100;1;;alap
+FL_0003_13131_fuzold;A4 Filclap fűzöld;100;1;;alap
+FL_0003_13130_lila;A4 Filclap lila;100;1;;alap
+FL_0003_13129_magenta;A4 Filclap magenta;100;1;;alap
+FL_0003_10645_countykek;A4 Filclap countrykék;100;1;;alap
+FL_0003_10644_szurke;A4 Filclap szürke;100;1;;alap
+FL_0003_10643_tejeskave;A4 Filclap tejeskávé;100;1;;alap
+FL_0003_10642_zold;A4 Filclap zöld;100;1;;alap
+FL_0003_10640_napsarga;A4 Filclap napsárga;100;1;;alap
+FL_0003_10639_v_pink;A4 Filclap világos pink;100;1;;alap
+FL_0003_4170_padlizsan;A4 Filclap padlizsán;100;1;;alap
+FL_0003_4169_rozsaszin;A4 Filclap rózsaszín;100;1;;alap
+FL_0003_4168_v_barna;A4 Filclap világos barna;100;1;;alap
+FL_0003_4166_v_lila;A4 Filclap világos lila;100;1;;alap
+FL_0003_4165_matrozkek;A4 Filclap matróz kék;100;1;;alap
+FL_0003_3841_s_zold;A4 Filclap sötét zöld;100;1;;alap
+FL_0003_3840_n_zold;A4 Filclap neon zöld;100;1;;alap
+FL_0003_3164_drapp;A4 Filclap drapp;100;1;;alap
+FL_0003_3163_v_kek;A4 Filclap világos kék;100;1;;alap
+FL_0003_v_zold;A4 Filclap világos zöld;100;1;;alap
+FL_0003_3161_fekete;A4 Filclap fekete;100;1;;alap
+FL_0003_3160_s_barna;A4 Filclap sötét barna;100;1;;alap
+FL_0003_k_zold;A4 Filclap közép zöld;100;1;;alap
+FL_0003_3158_kek;A4 Filclap kék;100;1;;alap
+FL_0003_3157_natur;A4 Filclap natúr;100;1;;alap
+FL_0003_3156_bordo;A4 Filclap bordó;100;1;;alap
+FL_0003_3155_n_narancs;A4 Filclap neon narancs;100;1;;alap
+FL_0003_3154_ciklamen;A4 Filclap ciklámen;100;1;;alap
+FL_0003_piros;A4 Filclap piros;100;1;;alap
+FL_0003_3152_sarga;A4 Filclap sárga;100;1;;alap
+FL_0003_3151_feher;A4 Filclap fehér;100;1;;alap
+PDK_0013_S_feher;Papír doboz kerek kicsi fehér;1100;1;;dekor
+PDK_0013_M_feher;Papír doboz kerek közepes fehér;1400;1;;dekor
+PDK_0013_L_feher;Papír doboz kerek nagy fehér;1800;1;;dekor
+PDK_0013_S_krem;Papír doboz kerek kicsi krém;1100;1;;dekor
+PDK_0013_M_krem;Papír doboz kerek közepes fehér;1400;1;;dekor
+PDK_0013_L_krem;Papír doboz kerek nagy fehér;1800;1;;dekor
+PDK_0013_S_turkiz;Papír doboz kerek kicsi türkiz;1100;1;;dekor
+PDK_0013_M_turkiz;Papír doboz kerek közepes türkiz;1400;1;;dekor
+PDK_0013_L_turkiz;Papír doboz kerek nagy türkiz;1800;1;;dekor
+PDK_0013_S_v_rozsaszin;Papír doboz kerek kicsi világos rózsaszín;1100;1;;dekor
+PDK_0013_M_v_rozsaszin;Papír doboz kerek közepes világos rózsaszín;1400;1;;dekor
+PDK_0013_L_v_rozsaszin;Papír doboz kerek nagy világos rózsaszín;1800;1;;dekor
+PDK_0013_S_rozsaszin;Papír doboz kerek kicsi rózsaszín;1100;1;;dekor
+PDK_0013_M_rozsaszin;Papír doboz kerek közepes rózsaszín;1400;1;;dekor
+PDK_0013_L_rozsaszin;Papír doboz kerek nagy rózsaszín;1800;1;;dekor
+PDK_0013_S_fekete;Papír doboz kerek kicsi fekete;1100;1;;dekor
+PDK_0013_M_fekete;Papír doboz kerek közepes fekete;1400;1;;dekor
+PDK_0013_L_fekete;Papír doboz kerek nagy fekete;1800;1;;dekor
+PDK_0013_S_szurke;Papír doboz kerek kicsi szürke;1100;1;;dekor
+PDK_0013_M_szurke;Papír doboz kerek közepes szürke;1400;1;;dekor
+PDK_0013_L_szurke;Papír doboz kerek nagy szürke;1800;1;;dekor
+PDK_0013_S_s_szurke;Papír doboz kerek kicsi sötét szürke;1100;1;;dekor
+PDK_0013_M_s_szurke;Papír doboz kerek közepes sötét szürke;1400;1;;dekor
+PDK_0013_L_s_szurke;Papír doboz kerek nagy sötét szürke;1800;1;;dekor
+PDK_0013_S_lila;Papír doboz kerek kicsi lila;1100;1;;dekor
+PDK_0013_M_lila;Papír doboz kerek közepes lila;1400;1;;dekor
+PDK_0013_L_lila;Papír doboz kerek nagy lila;1800;1;;dekor
+PDK_0014_S_feher;Papír doboz kerek nagyobbak kicsi fehér;1800;1;;dekor
+PDK_0014_M_feher;Papír doboz kerek nagyobbak közepes fehér;2200;1;;dekor
+PDK_0014_L_feher;Papír doboz kerek nagyobbak nagy fehér;2600;1;;dekor
+PDK_0014_S_natur;Papír doboz kerek nagyobbak kicsi natúr;1800;1;;dekor
+PDK_0014_M_natur;Papír doboz kerek nagyobbak közepes natúr;2200;1;;dekor
+PDK_0014_L_natur;Papír doboz kerek nagyobbak nagy natúr;2600;1;;dekor
+PDKF_0015_L_natur;Papír doboz fodros szélű nagy natúr;;1;;dekor
+PDKF_0015_XL_natur;Papír doboz fodros szélű nagyon nagy natúr;;1;;dekor
+PD_0016_S_feher;Papír doboz kicsi fehér;1400;1;;dekor
+PD_0016_M_feher;Papír doboz közepes fehér;1600;1;;dekor
+PD_0016_L_feher;Papír doboz nagy fehér;1800;1;;dekor
+PD_0016_S_krem;Papír doboz kicsi krém;1400;1;;dekor
+PD_0016_M_krem;Papír doboz közepes krém;1600;1;;dekor
+PD_0016_L_krem;Papír doboz nagy krém;1800;1;;dekor
+PD_0016_S_fekete;Papír doboz kicsi fekete;1400;1;;dekor
+PD_0016_M_fekete;Papír doboz közepes fekete;1600;1;;dekor
+PD_0016_L_fekete;Papír doboz nagy fekete;1800;1;;dekor
+PDSZ_0017_S_s_rozsaszin;Papír doboz szív alakú kicsi sötétrózsaszín;700;1;;dekor
+PDSZ_0017_M_s_rozsaszin;Papír doboz szív alakú közepes sötétrózsaszín;800;1;;dekor
+PDSZ_0017_L_s_rozsaszin;Papír doboz szív alakú nagy sötétrózsaszín;1000;1;;dekor
+PDSZM_0018_S_rozsaszin_kocka;Papír doboz szív alakú masnis kicsi rózsaszín/kockás;700;1;;dekor
+PDSZM_0018_M_rozsaszin_kocka;Papír doboz szív alakú masnis közepes rózsaszín/kockás;800;1;;dekor
+PDSZM_0018_L_rozsaszin_kocka;Papír doboz szív alakú masnis nagy rózsaszín/kockás;1000;1;;dekor
+PDSZM_0018_S_lila_rozsaszin;Papír doboz szív alakú masnis kicsi lila/rózsaszín;700;1;;dekor
+PDSZM_0018_M_lila_rozsaszin;Papír doboz szív alakú masnis közepes lila/rózsaszín;800;1;;dekor
+PDSZM_0018_L_lila_rozsaszin;Papír doboz szív alakú masnis nagy lila/rózsaszín;1000;1;;dekor
+PDSZM_0018_S_rozsaszin_lila;Papír doboz szív alakú masnis kicsi rózsaszín/lila;700;1;;dekor
+PDSZM_0018_M_rozsaszin_lila;Papír doboz szív alakú masnis közepes rózsaszín/lila;800;1;;dekor
+PDSZM_0018_L_rozsaszin_lila;Papír doboz szív alakú masnis nagy rózsaszín/lila;1000;1;;dekor
+PDSZM_0018_S_krem_turkiz;Papír doboz szív alakú masnis kicsi krém/türkiz;700;1;;dekor
+PDSZM_0018_M_krem_turkiz;Papír doboz szív alakú masnis közepes krém/türkiz;800;1;;dekor
+PDSZM_0018_L_krem_turkiz;Papír doboz szív alakú masnis nagy krém/türkiz;1000;1;;dekor
+PDSZM_0018_S_turkiz_krem;Papír doboz szív alakú masnis kicsi türkiz/krém;700;1;;dekor
+PDSZM_0018_M_turkiz_krem;Papír doboz szív alakú masnis közepes türkiz/krém;800;1;;dekor
+PDSZM_0018_L_turkiz_krem;Papír doboz szív alakú masnis nagy türkiz/krém;1000;1;;dekor
+PDSZM_0018_S_piros_kocka;Papír doboz szív alakú masnis kicsi piros/kockás;700;1;;dekor
+PDSZM_0018_M_piros_kocka;Papír doboz szív alakú masnis közepes piros/kockás;800;1;;dekor
+PDSZM_0018_L_piros_kocka;Papír doboz szív alakú masnis nagy piros/kockás;1000;1;;dekor
+PDSZM_0018_S_krem_piros;Papír doboz szív alakú masnis kicsi krém/piros;700;1;;dekor
+PDSZM_0018_M_krem_piros;Papír doboz szív alakú masnis közepes krém/piros;800;1;;dekor
+PDSZM_0018_L_krem_piros;Papír doboz szív alakú masnis nagy krém/piros;1000;1;;dekor
+PDH_0019_S_viragzold;Papír doboz hatszögletű kicsi virágos zöld ;900;1;;dekor
+PDH_0019_M_viragzold;Papír doboz hatszögletű közepes virágos zöld ;1200;1;;dekor
+PDH_0019_L_viragzold;Papír doboz hatszögletű nagy virágos zöld ;1500;1;;dekor
+PDH_0019_S_viragrozsaszin;Papír doboz hatszögletű kicsi virágos rózsaszín;900;1;;dekor
+PDH_0019_M_viragrozsaszin;Papír doboz hatszögletű közepes virágos rózsaszín;1200;1;;dekor
+PDH_0019_L_viragrozsaszin;Papír doboz hatszögletű nagy virágos rózsaszín;1500;1;;dekor
+PDHM_0020_S_krem_rozsaszin;Papír doboz hatszögletű masnis kicsi krém/rózsaszín;;1;;dekor
+PDHM_0020_M_krem_rozsaszin;Papír doboz hatszögletű masnis közepes krém/rózsaszín;;1;;dekor
+PDHM_0020_L_krem_rozsaszin;Papír doboz hatszögletű masnis nagy krém/rózsaszín;;1;;dekor
+PDHM_0020_S_rozsaszin_krem;Papír doboz hatszögletű masnis kicsi rózsaszín/krém;;1;;dekor
+PDHM_0020_M_rozsaszin_krem;Papír doboz hatszögletű masnis közepes rózsaszín/krém;;1;;dekor
+PDHM_0020_L_rozsaszin_krem;Papír doboz hatszögletű masnis nagy rózsaszín/krém;;1;;dekor
+PDHM_0020_S_turkiz_krem;Papír doboz hatszögletű masnis kicsi türkiz/krém;;1;;dekor
+PDHM_0020_M_turkiz_krem;Papír doboz hatszögletű masnis közepes türkiz/krém;;1;;dekor
+PDHM_0020_L_turkiz_krem;Papír doboz hatszögletű masnis nagy türkiz/krém;;1;;dekor
+PDHM_0020_S_krem_turkiz;Papír doboz hatszögletű masnis kicsi krém/türkiz;;1;;dekor
+PDHM_0020_M_krem_turkiz;Papír doboz hatszögletű masnis közepes krém/türkiz;;1;;dekor
+PDHM_0020_L_krem_turkiz;Papír doboz hatszögletű masnis nagy krém/türkiz;;1;;dekor
+PDKALAP_0021_S_levendula;Papír doboz kalapos kicsi levendula;1500;1;;dekor
+PDKALAP_0021_M_levendula;Papír doboz kalapos közepes levendula;1700;1;;dekor
+PDKALAP_0021_L_levendula;Papír doboz kalapos nagy levendula;1900;1;;dekor
+PDKALAP_0021_S_levendula_love;Papír doboz kalapos kicsi levendula love;1500;1;;dekor
+PDKALAP_0021_M_levendula_love;Papír doboz kalapos közepes levendula_love;1700;1;;dekor
+PDKALAP_0021_L_levendula_love;Papír doboz kalapos nagy levendula_love;1900;1;;dekor
+PDKALAP_0021_S_fekete_toll;Papír doboz kalapos kicsi fekete tollas;1500;1;;dekor
+PDKALAP_0021_M_fekete_toll;Papír doboz kalapos közepes fekete tollas;1700;1;;dekor
+PDKALAP_0021_L_fekete_toll;Papír doboz kalapos nagy fekete tollas;2000;1;;dekor
+PDKALAP_0021_S_feher_toll;Papír doboz kalapos kicsi fehér tollas;1500;1;;dekor
+PDKALAP_0021_M_feher_toll;Papír doboz kalapos közepes fehér tollas;1700;1;;dekor
+PDKALAP_0021_L_feher_toll;Papír doboz kalapos nagy fehér tollas;2000;1;;dekor
+PDKALAP_0021_S_fekete_virag;Papír doboz kalapos kicsi fekete virágos;1500;1;;dekor
+PDKALAP_0021_M_fekete_virag;Papír doboz kalapos közepes fekete virágos;1700;1;;dekor
+PDKALAP_0021_L_fekete_virag;Papír doboz kalapos nagy fekete virágos;2000;1;;dekor
+FD_0022_3263;Fadoboz 3263 kódszám;2150;1;;alap
+FD_0022_5857;Fadoboz 5857 kódszám;;1;;alap
+FD_0022_25330;Fadoboz 25330 kódszám;2350;1;;alap
+FD_0022_1111;Fadoboz 1111 kódszám;1740;1;;alap
+FD_0022_6928;Fadoboz 6928 kódszám;1970;1;;alap
+FD_0022_3107;Fadoboz 3107 kódszám;2800;1;;alap
+FD_0022_3232;Fadoboz 3232 kódszám irattartó fekvő;2900;1;;alap
+FD_0022_3260;Fadoboz 3260 kódszám szív;2800;1;;alap
+FD_0022_3175;Fadoboz 3175 kódszám ovális;1340;1;;alap
+FD_0022_3230;Fadoboz 3230 kódszám fűszertartó;2340;1;;alap
+FD_0022_3242;Fadoboz 3242 kódszám persely;2800;1;;alap
+FD_0022_3243;Fadoboz 3243 kódszám persely;2500;1;;alap
+FD_0022_1112;Fadoboz 1112 kódszám levél tartó;1950;1;;alap
+FD_0022_1113;Fadoboz 1113 kódszám könyvtámasz;1160;1;;alap
+FD_0022_3158;Fadoboz 3158 kódszám;1800;1;;alap
+FD_0022_9200;Fadoboz 9200 kódszám zsebkendő tartó;1800;1;;alap
+FD_0022_6923;Fadoboz 6923 kódszám zsebkendő tartó kicsi;850;1;;alap
+FD_0022_3192;Fadoboz 3192 kódszám;1400;1;;alap
+FD_0022_12908;Fadoboz 12908 kódszám kulcstartó;1460;1;;alap
+FD_0022_3261;Fadoboz 3261 kódszám;1100;1;;alap
+FD_0022_3180;Fadoboz 3180 kódszám;1720;1;;alap
+FD_0022_3258;Fadoboz 3258 kódszám;2100;1;;alap
+FD_0022_9798;Fadoboz 9798 kódszám;1250;1;;alap
+FD_0022_1114;Fadoboz 1114 kódszám;1000;1;;alap
+FD_0022_1115;Fadoboz 1115 kódszám tolltartó;1260;1;;alap
+FD_0022_8633;Fadoboz 8633 kódszám tolltartó;1260;1;;alap
+FD_0022_1116;Fadoboz 1116 kódszám ;390;1;;alap
+FD_0022_1117;Fadoboz 1117 kódszám;700;1;;alap
+FD_0022_1118;Fadoboz 1118 kódszám;350;1;;alap
+FD_0022_1119;Fadoboz 1119 kódszám;450;1;;alap
+FD_0022_1120;Fadoboz 1120 kódszám;760;1;;alap
+FD_0022_1121;Fadoboz 1121 kódszám;750;1;;alap
+FD_0022_1122_S;Fadoboz 1122 kódszám kicsi;500;1;;alap
+FD_0022_1122_M;Fadoboz 1122 kódszám közepes;700;1;;alap
+FD_0022_1122_L;Fadoboz 1122 kódszám nagy;900;1;;alap
+FD_0022_3162_XS;Fadoboz 3162 kódszám nagyon kicsi;700;1;;alap
+FD_0022_3162_S;Fadoboz 3162 kódszám kicsi;900;1;;alap
+FD_0022_3162_M;Fadoboz 3162 kódszám közepes;1000;1;;alap
+FD_0022_3162_L;Fadoboz 3162 kódszám nagy;1100;1;;alap
+FD_0022_1123;Fadoboz 1123 kódszám ceruzatartó;2350;1;;alap
+FD_0022_1124;Fadoboz 1124 kódszám levéltartó;2450;1;;alap
+FD_0022_10286;Fadoboz 10286 kódszám szalvétatartó;360;1;;alap
+FD_0022_1125;Fadoboz 1125 kódszám ceruzatartó;920;1;;alap
+FD_0022_3246;Fadoboz 3246 kódszám irattartó;1990;1;;alap
+FD_0022_8844;Fadoboz 8844 kódszám zsebkendőtartó fekvő;1050;1;;alap
+FD_0022_1126;Fadoboz 1126 kódszám könyvdoboz;1400;1;;alap
+FD_0022_1127;Fadoboz 1127 kódszám ékszertartó;4400;1;;alap
+FD_0022_1128;Fadoboz 1128 kódszám szív kivágás;1900;1;;alap
+FD_0022_1129;Fadoboz 1129 kódszám ovális doboz;1660;1;;alap
+FT_0023_32873;Fa tálca 32873 kódszám kerek;2800;1;;alap
+FT_0023_32859;Fa tálca 32859 kódszám ovális;3300;1;;alap
+FT_0023_32841;Fa tálca 32841 kódszám téglalap;4400;1;;alap
+DKCS_0024_16469_rozsaszin;A4 Dekor gumi csillámos rózsaszín;280;1;;alap
+DKCS_0024_16473_ciklamen;A4 Dekor gumi csillámos ciklámen;280;1;;alap
+DKCS_0024_16468_rez;A4 Dekor gumi csillámos réz;280;1;;alap
+DKCS_0024_16466_arany;A4 Dekor gumi csillámos arany;280;1;;alap
+DKCS_0024_16464_piros;A4 Dekor gumi csillámos piros;280;1;;alap
+DKCS_0024_18670_feherarany;A4 Dekor gumi csillámos fehér arany;280;1;;alap
+DKCS_0024_38239_v_lila;A4 Dekor gumi csillámos világos lila;280;1;;alap
+DKCS_0024_16471_lila;A4 Dekor gumi csillámos lila;280;1;;alap
+DKCS_0024_34307_kiralykek;A4 Dekor gumi csillámos királykék;280;1;;alap
+DKCS_0024_16470_kek;A4 Dekor gumi csillámos kék;280;1;;alap
+DKCS_0024_39197_v_kek;A4 Dekor gumi csillámos világos kék;280;1;;alap
+DKCS_0024_18671_turkizkek;A4 Dekor gumi csillámos türkiz kék;280;1;;alap
+DKCS_0024_16465_zold;A4 Dekor gumi csillámos zöld;280;1;;alap
+DKCS_0024_16472_bronz;A4 Dekor gumi csillámos bronz;280;1;;alap
+DKCS_0024_34306_antracit;A4 Dekor gumi csillámos antracit;280;1;;alap
+DK_0025_10049_pasztellrozsaszin;A4 Dekor gumi pasztellrózsaszín;90;1;;alap
+DK_0025_12842_rozsaszin;A4 Dekor gumi rózsaszín;90;1;;alap
+DK_0025_10847_magenta;A4 Dekor gumi magenta;90;1;;alap
+DK_0025_14032_ibolyalila;A4 Dekor gumi ibolya lila;90;1;;alap
+DK_0025_10044_v_lila;A4 Dekor gumi világos lila;90;1;;alap
+DK_0025_5917_lila;A4 Dekor gumi lila;90;1;;alap
+DK_0025_5914_feher;A4 Dekor gumi fehér;90;1;;alap
+DK_0025_10050_pasztellsarga;A4 Dekor gumi pasztell sárga;90;1;;alap
+DK_0025_5921_sarga;A4 Dekor gumi sárga;90;1;;alap
+DK_0025_18668_narancs;A4 Dekor gumi narancs;90;1;;alap
+DK_0025_10051_v_narancs;A4 Dekor gumi világos narancs;90;1;;alap
+DK_0025_5918_s_narancs;A4 Dekor gumi sötét narancs;90;1;;alap
+DK_0025_14030_citromsarga;A4 Dekor gumi citrom sárga;90;1;;alap
+DK_0025_5911_s_kek;A4 Dekor gumi sötét kék;90;1;;alap
+DK_0025_18666_kek;A4 Dekor gumi kék;90;1;;alap
+DK_0025_10045_kekeslila;A4 Dekor gumi kékes lila;90;1;;alap
+DK_0025_5925_v_kek;A4 Dekor gumi világos kék;90;1;;alap
+DK_0025_14033_turkizkek;A4 Dekor gumi türkiz kék;90;1;;alap
+DK_0025_10047_pasztellkek;A4 Dekor gumi pasztell kék;90;1;;alap
+DK_0025_10850_megypiros;A4 Dekor gumi megypiros;90;1;;alap
+DK_0025_5922_s_piros;A4 Dekor gumi sötét piros;90;1;;alap
+DK_0025_14031_fuzold;A4 Dekor gumi fűzöld;90;1;;alap
+DK_0025_5924_v_zold;A4 Dekor gumi világos zöld;90;1;;alap
+DK_0025_10849_turkiz;A4 Dekor gumi türkiz;90;1;;alap
+DK_0025_5916_kozepzold;A4 Dekor gumi közép zöld;90;1;;alap
+DK_0025_5923_s_zold;A4 Dekor gumi sötét zöld;90;1;;alap
+DK_0025_18667_testszin;A4 Dekor gumi test szín;90;1;;alap
+DK_0025_5947_drapp;A4 Dekor gumi drapp;90;1;;alap
+DK_0025_18669_s_barna;A4 Dekor gumi sötét barna;90;1;;alap
+DK_0025_10048_terrakotta;A4 Dekor gumi terrakotta;90;1;;alap
+DK_0025_5920_szurke;A4 Dekor gumi szürke;90;1;;alap
+DK_0025_10052_v_szurke;A4 Dekor gumi világos szürke;90;1;;alap
+DK_0025_10046_kozepszurke;A4 Dekor gumi közép szürke;90;1;;alap
+DK_0025_5915_fekete;A4 Dekor gumi fekete;90;1;;alap
+KD_0026_7618_S_kerek;Karton doboz kicsi kerek;1550;1;;alap
+KD_0026_7618_M_kerek;Karton doboz közepes kerek;1850;1;;alap
+KD_0026_13766_S_cakkos;Karton doboz kicsi cakkos tetejű;950;1;;alap
+KD_0026_13766_M_cakkos;Karton doboz közepes cakkos tetejű;1250;1;;alap
+KD_0026_13766_L_cakkos;Karton doboz nagy cakkos tetejű;1850;1;;alap
+KD_0026_11512_S_borond;Karton doboz kicsi bőrönd;2000;1;;alap
+KD_0026_11512_M_borond;Karton doboz közepes bőrönd;2500;1;;alap
+KD_0026_11512_L_borond;Karton doboz nagy bőrönd;3000;1;;alap
+KD_0026_7658_S_konyvdoboz;Karton doboz kicsi könyvdoboz;1500;1;;alap
+KD_0026_7658_M_konyvdoboz;Karton doboz közepes könyvdoboz;2500;1;;alap
+KD_0026_7607_S_sziv;Karton doboz kicsi szív alakú;800;1;;alap
+KD_0026_7607_M_sziv;Karton doboz közepes szív alakú;1000;1;;alap
+KD_0026_1111_S_nyolcszog;Karton doboz kicsi nyolcszög alakú;430;1;;alap
+KD_0026_1111_M_nyolcszog;Karton doboz közepes nyolcszög alakú;790;1;;alap
+KD_0026_1111_L_nyolcszog;Karton doboz nagy nyolcszög alakú;950;1;;alap
+KD_0026_1112;Karton doboz kis téglalap alakú;260;1;;alap
+KD_0026_1113;Karton doboz kis négyzet alakú;260;1;;alap
+KD_0026_1114;Karton doboz kis ovális alakú;260;1;;alap
+KD_0026_1115;Karton doboz kis kör alakú;230;1;;alap
+KD_0026_7600;Karton doboz közepes kör alakú;540;1;;alap
