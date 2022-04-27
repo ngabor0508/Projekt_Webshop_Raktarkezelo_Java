@@ -1,4 +1,4 @@
-# Projekt_Webshop_Raktarkezelo_Java
+# Kreatív Ötletcentrum raktárkezelő alkalmazás
 A Kreatív Ötletcentrum részére készített raktárkezelő alkalmazás, a vizsgaremek követelményeinek megfelelően.
 
 Az alkalmazás használatához szükséges a backend aminek a linkje itt található: 
