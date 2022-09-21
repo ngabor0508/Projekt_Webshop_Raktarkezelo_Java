@@ -37,10 +37,10 @@ public class BejelentkezesController extends Controller{
             if(felhasznaloAdatok.getPermission()) {
                 RaktarKezeloApp.nev = felhasznaloAdatok.getName();
                 ((Stage) bejelentkezes_ablak.getScene().getWindow()).close();
-                MainController main = (MainController) ujAblak(
-                        "/hu/kreativ_otletcentrum/projekt_webshop_raktarkezelo_java/fxml/main-view.fxml", "Kreatív Ötletcentrum Raktárkezelő", 1300, 700
+                FunkcioValasztoController funkcio = (FunkcioValasztoController) ujAblak(
+                        "/hu/kreativ_otletcentrum/projekt_webshop_raktarkezelo_java/fxml/funkcio-valaszto.fxml", "Kreatív Ötletcentrum Raktárkezelő", 300, 400
                 );
-                main.getStage().show();
+                funkcio.getStage().show();
             }
             else{
                 //System.out.println("Nincs jogod bejelentkezni.");

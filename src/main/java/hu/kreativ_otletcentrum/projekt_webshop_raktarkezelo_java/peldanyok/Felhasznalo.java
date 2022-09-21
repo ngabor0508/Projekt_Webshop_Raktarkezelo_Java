@@ -6,8 +6,8 @@ public class Felhasznalo {
     private int id;
     private String name;
     private String email;
-    private Date created_at;
     private boolean permission;
+    private Date created_at;
 
     public Felhasznalo(int id, String name, String email, boolean permission, Date created_at) {
         this.id = id;

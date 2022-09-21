@@ -65,10 +65,10 @@ public class HozzaadController extends Controller {
                 return;
             }
 
-            if(url.isEmpty()){
+            /*if(url.isEmpty()){
                 alert("Url megadása kötelező!");
                 return;
-            }
+            }*/
 
             if(kategoriaIndex == -1){
                 alert("Kategória kiválasztása kötelező!");

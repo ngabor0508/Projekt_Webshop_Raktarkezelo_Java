@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<GridPane fx:id="funkcio_ablak" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.controllers.FunkcioValasztoController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="300.0">
+         <children>
+            <VBox alignment="CENTER" layoutX="40.0" layoutY="13.0" prefHeight="375.0" prefWidth="221.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onFelhasznalokClick" prefHeight="62.0" prefWidth="145.0" text="Felhasználók">
+                     <VBox.margin>
+                        <Insets bottom="40.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onTermekekClick" prefHeight="62.0" prefWidth="145.0" text="Termékek">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onRendelesekClick" prefHeight="62.0" prefWidth="145.0" text="Rendelések">
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
