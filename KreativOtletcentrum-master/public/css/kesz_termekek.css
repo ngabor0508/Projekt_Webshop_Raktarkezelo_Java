@@ -1,0 +1,131 @@
+#termekek .termekek-item {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#termekek .termekek-item .termekek-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+#termekek .termekek-item .termekek-link .termekek-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fddcd3;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: ease-in-out 0.35s;
+  border-radius: 5%;
+}
+#termekek:hover
+  .termekek-item:hover
+  .termekek-link:hover
+  .termekek-hover:hover {
+  opacity: 0.8;
+}
+#termekek
+  .termekek-item
+  .termekek-link
+  .termekek-hover
+  .termekek-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+#termekek .termekek-item .termekek-link:hover .termekek-hover {
+  opacity: 1;
+}
+.termekek-modal .close-modal{
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.termekek-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.page-section h2.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+}
+.modal-dialog-scrollable {
+    display: flex;
+    max-height: calc(100% - 1rem);
+  }
+  .modal-dialog-scrollable .modal-content {
+    max-height: calc(100vh - 1rem);
+    overflow: hidden;
+  }
+  .modal-dialog-scrollable .modal-header,
+  .modal-dialog-scrollable .modal-footer {
+    flex-shrink: 0;
+  }
+  .modal-dialog-scrollable .modal-body {
+    overflow-y: auto;
+  }
+  
+  .modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+  }
+  .modal-dialog-centered::before {
+    display: block;
+    height: calc(100vh - 1rem);
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+    content: "";
+  }
+  .modal-dialog-centered.modal-dialog-scrollable {
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  .text-center p{
+    text-align: center;
+  }
+  #kosargomb{
+    background-color: #fddcd3;
+    text-decoration: none;
+    color: black;
+    width: 50%;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  #kosargomb:hover, #kosargomb:focus, #kosargomb:active{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  #lapozas nav{
+    margin-top: 15%;
+    margin-bottom: -15%;
+    display: block;
+    width: 100%;
+    background: none;
+  }
+  #lapozas a{
+    color: black;
+  }
+  #fejlec{
+    margin-bottom: 5%;
+  }
+  .page-item.active .page-link{
+    background-color: #fddcd3;
+    border-color: #fddcd3;
+    color: black;
+  }
