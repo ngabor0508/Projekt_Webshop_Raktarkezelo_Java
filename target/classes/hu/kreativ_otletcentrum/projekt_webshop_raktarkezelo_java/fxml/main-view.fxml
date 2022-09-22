@@ -31,7 +31,7 @@
                          <String fx:value="alap" />
                          <String fx:value="dekor" />
                          <String fx:value="kész" />
-                         <String fx:value="osszes"/>
+                         <String fx:value="Összes kategória"/>
                      </FXCollections>
                  </items>
              </ChoiceBox>

@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<GridPane fx:id="bejelentkezes_ablak" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.controllers.UsersController">
+<GridPane fx:id="bejelentkezes_ablak" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.kreativ_otletcentrum.projekt_webshop_raktarkezelo_java.controllers.UsersController">
+   <children>
+      <AnchorPane prefHeight="300.0" prefWidth="604.0">
+         <children>
+            <VBox prefHeight="300.0" prefWidth="600.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="62.0" layoutY="10.0" mnemonicParsing="false" text="Button" />
+                     </children>
+                  </HBox>
+                  <TableView prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="C1" />
+                      <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                  </TableView>
+               </children>
+            </VBox>
+         </children></AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
 </GridPane>
